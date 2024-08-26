@@ -38,11 +38,10 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Lina Marea',
+    description: 'Venezuelan pianist',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/piano.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
@@ -51,16 +50,20 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Biography',
+            href: '/about'
         },
         {
-            text: 'Blog',
+            text: 'Gallery',
             href: '/blog'
         },
         {
-            text: 'Tags',
+            text: 'Videos',
             href: '/tags'
+        },
+        {
+            text: 'Contact',
+            href: '/contact'
         }
     ],
     footerNavLinks: [
@@ -71,36 +74,20 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
             text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://www.instagram.com/linamarea2000?igsh=MXR5NzcwaHJ3OWN1eQ=='
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Venezuelan pianist now at Brussels, Belgium',
+        text: 'I am Lina Esther Marea Peñalver, born in 2000 in Caracas, Venezuela. My musical journey began at six with piano lessons from Professor Luisa Sánchez, and I later continued at the Mozarteum Caracas School of Music with Professor Carlos Urbaneja Silva. I have participated in masterclasses with notable artists such as Kristiina Junttu, Laura Silva, Alexia Mouza, and Toshiki Usui. In 2020, I started my Bachelor in Music Performance at the Liceu Conservatory of Music in Barcelona under the guidance of concert pianist Josep María Colom Rincón. I have performed in significant venues in Caracas, like The Teresa Carreño Theatre, and in Barcelona, including Sala Parés and the Liceu Conservatory Auditorium. As a finalist in the 2014 XII National Piano Competition Silvia Eisenstein and a guest soloist with the Municipal Orchestra of Caracas, my playing is praised for its musicality and profound expression. Additionally, since 2021, I have been passionate about teaching piano and music theory to beginner and intermediate students.',
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/hero.jpg',
+            alt: 'A person playing piano'
         },
         actions: [
             {

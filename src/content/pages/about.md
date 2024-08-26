@@ -1,43 +1,33 @@
 ---
-title: About
+title: Biography
 seo:
-  title: About Me
+  title: Biography
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
-    src: '/about.jpeg'
+    src: '/piano-hero.jpg'
     alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](/about.jpeg)
+![Alt text for image](/piano-hero.jpg)
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+## Lina Marea - venezuelan pianist based in Bruselas
 
-## Ethan Donovan - Web Developer based in Estonia
-
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**Greetings!** I'm Lina Marea, a passionate piano and musical language teacher based in the picturesque streets and historic architecture of [Brussels](https://en.wikipedia.org/wiki/Brussels). With a keen ear for beautiful melodies and a love for dramatic interpretations of most of the academic master pieces, I bring a unique blend of creativity and technical expertise to your concerts or events.
 
 ## Skills and Expertise
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
-
-## Innovation and Problem-Solving
-
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+I specialize in sharing my passion for piano and music with young learners, children, and adolescents. My teaching approach is thoughtfully crafted to accommodate the unique pace and learning style of each student, ensuring they not only master the technical skills but also cultivate a profound and lasting love for the art of music. I strive to create a supportive and inspiring environment where students feel encouraged to explore, express themselves, and grow as musicians."
 
 ## Global Perspective, Local Impact
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+Moving from Barcelona to Brussels has not only enriched my understanding of different musical traditions and cultures but has also shaped my approach to teaching piano. I now appreciate the importance of connecting with students in Brussels on a personal level, understanding their unique backgrounds, and fostering a love for music that resonates locally while embracing the global diversity of musical expression.
 
 ## Continuous Learning
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
-
-## Collaboration and Communication
-
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+Since starting my Bachelor in Music Performance at the Liceu Conservatory of Music in Barcelona in 2020, I have been dedicated to continuous learning under the guidance of esteemed musicians such as Josep María Colom Rincón and Vesko Stambolov. I’ve participated in masterclasses with notable artists like Edith Fisher, Eliane Reyes, the Elias String Quartet, and Akiko Ebi, which have greatly enriched my skills. My journey has included recitals in prominent Caracas concert halls, being a finalist in the XII National Piano Competition Silvia Eisenstein, and debuting as a Guest Soloist with the Municipal Orchestra of Caracas, performing Beethoven’s Piano Concerto No. 2. These experiences reflect my commitment to ongoing growth and excellence in my musical career.
 
 ## Get in Touch
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+Are you looking to ignite your passion for piano learingn and bring your sonorous ideas to life? I'd love to hear from you! Feel free to reach out for a class, consultation, or just a friendly chat about all things related to music.
 
-_Let's build something amazing together!_
+_Let's learn muisc together!_

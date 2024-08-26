@@ -2,11 +2,16 @@
 import type { GetStaticPathsOptions, Page } from 'astro';
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import Pagination from '../../components/Pagination.astro';
-import PostPreview from '../../components/PostPreview.astro';
-import Subscribe from '../../components/Subscribe.astro';
 import siteConfig from '../../data/site-config';
 import { sortItemsByDateDesc } from '../../utils/data-utils';
+import { Image } from "astro:assets";
+import playingPiano from "../../../public/playing-piano-vertical.jpg";
+import groupalPic from "../../../public/groupal-pic.jpg";
+import orchestConcert from "../../../public/orchest-concert.jpg";
+import alonePlaying from "../../../public/alone-playing.jpeg";
+import pianoConcertSolo from "../../../public/piano-concert-solo.jpg";
+import withTeacher from "../../../public/with-me-teacher.jpg";
+import atMozarteurm from "../../../public/at-mozarteurm.jpg";
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
     const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
@@ -15,18 +20,60 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
 
 type Props = { page: Page<CollectionEntry<'blog'>> };
 
-const { page } = Astro.props;
-const blog = page.data;
 ---
 
 <BaseLayout
-    title="Blog"
-    description="Embark on a journey of personal insights and experiences through my blog"
-    image={{ src: '/dante-preview.jpg', alt: 'The preview of the site' }}
+    title="Gallery"
     showHeader={false}
 >
-    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Blog Archive</h1>
-    {blog.map((post) => <PostPreview post={post} class="mb-10 sm:mb-12" />)}
-    <Pagination page={page} class="my-16 sm:my-24" />
-    <Subscribe class="my-16 sm:my-24" />
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Gallery</h1>
+        <div class="mx-8 max-w-screen-lg py-12 lg:mx-0 2xl:max-w-screen-xl">
+          <div class="mx-auto columns-1 gap-5 *:my-auto sm:columns-2 sm:gap-8 md:columns-3 lg:columns-2 [&>img:not(:first-child)]:mt-8">
+            <Image
+              src={playingPiano}
+              width={1600}
+              height={265}
+              alt={""}
+            />
+            <Image
+              src={groupalPic}
+              width={1500}
+              height={2326}
+              alt={""}
+            />
+            <Image
+              src={pianoConcertSolo}
+              width={2121}
+              height={1353}
+              alt={""}
+            />
+            
+            <Image
+              src={atMozarteurm}
+              width={2121}
+              height={1353}
+              alt={""}
+            />
+  
+            <Image
+              src={alonePlaying}
+              width={2121}
+              height={1353}
+              alt={""}
+            />
+            <Image
+              src={orchestConcert}
+              width={2121}
+              height={1353}
+              alt={""}
+            />
+            <Image
+              src={withTeacher}
+              width={2121}
+              height={1353}
+              alt={""}
+            />
+
+          </div>
+        </div>
 </BaseLayout>
