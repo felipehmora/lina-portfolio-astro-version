@@ -13,4 +13,4 @@ Feel free to drop me an email at [linamarea2000@gmail.com](mailto:linamarea2000@
 _Social Media:_
 Connect with me on social media as well. Find me on [Instagram](https://www.instagram.com/linamarea2000?igsh=MXR5NzcwaHJ3OWN1eQ==).
 
-Or _[download my CV]()_
+Or _[download my CV](../../../public/CV%20prof%20de%20piano%20et%20langage%20en%20francais.pdf)_

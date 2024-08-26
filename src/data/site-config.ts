@@ -42,7 +42,7 @@ const siteConfig: SiteConfig = {
     description: 'Venezuelan pianist',
     image: {
         src: '/piano.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'A person playing piano'
     },
     headerNavLinks: [
         {
@@ -51,15 +51,15 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Biography',
-            href: '/about'
+            href: '/biography'
         },
         {
             text: 'Gallery',
-            href: '/blog'
+            href: '/gallery'
         },
         {
             text: 'Videos',
-            href: '/tags'
+            href: '/videos'
         },
         {
             text: 'Contact',
@@ -95,14 +95,7 @@ const siteConfig: SiteConfig = {
                 href: '/contact'
             }
         ]
-    },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    }
 };
 
 export default siteConfig;
