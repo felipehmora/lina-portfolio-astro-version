@@ -1,10 +1,9 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
-import siteConfig from '../data/site-config';
 ---
 
-<BaseLayout description={siteConfig.description} image={siteConfig.image}>
+<BaseLayout title='none'>
     <Hero />
             <div class="mb-16 sm:mb-24">
                 <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Videos</h2>
@@ -14,12 +13,12 @@ import siteConfig from '../data/site-config';
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/0TNY7YXF7ms?si=AWMgibkviqD6zoWt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              </div>
 
-            <div class="relative overflow-hidden mb-8">             
+            <div class="relative overflow-hidden mb-8">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/ygG7WgQwEe8?si=_FB8nNaxicb70dRX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <br>
 
             <div class="relative overflow-hidden mb-8">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/YLhn80ljJPU?si=ilGLg2pzWedQamLd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>  
+            </div> 
 </BaseLayout>

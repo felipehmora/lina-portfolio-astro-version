@@ -1,9 +1,5 @@
 ---
-import type { GetStaticPathsOptions, Page } from 'astro';
-import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import siteConfig from '../../data/site-config';
-import { sortItemsByDateDesc } from '../../utils/data-utils';
 import { Image } from "astro:assets";
 import playingPiano from "../../../public/playing-piano-vertical.jpg";
 import groupalPic from "../../../public/groupal-pic.jpg";
@@ -12,14 +8,6 @@ import alonePlaying from "../../../public/alone-playing.jpeg";
 import pianoConcertSolo from "../../../public/piano-concert-solo.jpg";
 import withTeacher from "../../../public/with-me-teacher.jpg";
 import atMozarteurm from "../../../public/at-mozarteurm.jpg";
-
-export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-    const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
-    return paginate(posts, { pageSize: siteConfig.postsPerPage || 4 });
-}
-
-type Props = { page: Page<CollectionEntry<'blog'>> };
-
 ---
 
 <BaseLayout
