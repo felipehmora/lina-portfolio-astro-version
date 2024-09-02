@@ -1,10 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-//import {content} from "../pages/biography"
+import Content from '../content/pages/biography.md';
+
 ---
 
-
-<BaseLayout showHeader={false}>
-    
+<BaseLayout  showHeader={false} >
+    <article class="mb-16 sm:mb-24">
+        <header class="mb-8">
+            <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Biography</h1>
+        </header>
+    </article>
+    <div class="max-w-none prose prose-dante sm:prose-lg">
+        <Content/>
+    </div>
 </BaseLayout>
 

@@ -68,8 +68,8 @@ const siteConfig: SiteConfig = {
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
+            text: 'Biography',
+            href: '/biography'
         },
         {
             text: 'Contact',

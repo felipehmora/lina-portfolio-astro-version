@@ -1,7 +1,7 @@
 ---
-title: Get in touch
+title: contact
 seo:
-  title: Contact
+  title: contact
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
